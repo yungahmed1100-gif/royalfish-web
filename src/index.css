@@ -210,12 +210,12 @@ section[id] {
 /* Surface waves — drift at different speeds for parallax depth */
 @keyframes wave-drift-x {
   from { transform: translateX(0); }
-  to   { transform: translateX(-80px); }
+  to   { transform: translateX(-60px); }
 }
-.wave-back  { animation: wave-drift-x 12s linear infinite alternate; }
-.wave-mid   { animation: wave-drift-x 8s  linear infinite alternate-reverse; }
-.wave-front { animation: wave-drift-x 5s  linear infinite alternate; }
-.wave-drift { animation: wave-drift-x 7s  linear infinite alternate; }
+.wave-back  { animation: wave-drift-x 14s ease-in-out infinite alternate; }
+.wave-mid   { animation: wave-drift-x 10s ease-in-out infinite alternate-reverse; }
+.wave-front { animation: wave-drift-x  7s ease-in-out infinite alternate; }
+.wave-drift { animation: wave-drift-x  9s ease-in-out infinite alternate; }
 
 /* Editorial leader dots for menu prices */
 .leader {
