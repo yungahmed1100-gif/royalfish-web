@@ -1,0 +1,161 @@
+export type Lang = "en" | "nl";
+
+export const translations = {
+  en: {
+    nav: {
+      about: "About", menu: "Menu", gallery: "Gallery",
+      reviews: "Reviews", visit: "Visit", call: "Call", directions: "Get Directions",
+    },
+    hero: {
+      eyebrow: "A Rotterdam Institution",
+      h1a: "All", h1b: "delicacies", h1c: "from the", h1d: "sea",
+      h1e: "can be found at", h1f: "Royal Fish.",
+      desc: "Hollandse Nieuwe, kibbeling, oysters and the day's best catch — sourced each morning, served on Floor G of the iconic Markthal since the market opened.",
+      menuCta: "See today's menu", dirCta: "Get directions", floorCta: "Floor G · Markthal",
+      rating: "178 Google reviews", price: "€10–20 per person",
+      services: "Dine-in · Takeaway · Delivery", scroll: "Scroll",
+      openNow: "Open now", est: "Est · Rotterdam Markthal",
+      today: "Today", fresh: "Fresh", catch: "catch",
+    },
+    trust: [
+      { label: "Caught daily", sub: "Fresh by 8AM" },
+      { label: "North Sea sourced", sub: "Trusted Dutch suppliers" },
+      { label: "Markthal landmark", sub: "Featured destination" },
+      { label: "Open 7 days", sub: "Until 8PM weekdays" },
+    ],
+    about: {
+      eyebrow: "Our Story",
+      heading: "Real fish specialists,", headingHighlight: "30+ years", headingSuffix: "at the market.",
+      desc: "Royal Fish was founded by real fish specialists with more than 30 years of experience in the fish market. Given the unique opportunity to open a stall inside Markthal Rotterdam, the owners took it with both hands.",
+      storyEyebrow: "The Royal story",
+      quote: "\"Royal Fish stands for fresh fish, pure fried dish, delicious mussels, delicious herring, beautiful wine and good service.\"",
+      p1: "The owners and staff have a sincere love for the fish market — you can taste it in the very friendly service and in the experienced preparations of every dish.",
+      p2: "All fish dishes are homemade, the fish are bought fresh every day, and our fried fish is baked right in front of you — a real delicacy from an extensive fryer menu.",
+      stats: ["years experience", "homemade dishes", "fresh catch"],
+      hoursTitle: "Opening Hours", findTitle: "Find us", floor: "Floor G · Market Hall",
+      features: [
+        { title: "Caught fresh, daily", desc: "Sourced each morning from trusted Dutch fishermen — so what you taste today was in the sea yesterday." },
+        { title: "Inside the Markthal", desc: "Right on Floor G of Rotterdam's iconic Market Hall. Easy to find, always alive with the city's appetite." },
+        { title: "Dine-in · Takeaway · Delivery", desc: "Stay and savour, grab and go, or have it delivered. We meet you where you are." },
+        { title: "Warm, attentive service", desc: "Our team is generous with smiles and recommendations. First-time guests rarely leave first-time." },
+      ],
+    },
+    rotterdam: {
+      eyebrow: "The neighbourhood",
+      heading: "A taste of", headingHighlight: "new Rotterdam.",
+      p1: "Rotterdam is bold, modern and unapologetically itself — a port city rebuilt with skyline ambition and street-level warmth. At its centre, the Markthal rises like a sculpted arch over the city's appetite.",
+      p2: "Beneath that arch you'll find us, alongside a hundred other purveyors of food, wine and good company. From the Cube Houses to the Erasmusbrug — it's our favourite address in the Netherlands, and we think you'll see why.",
+      facts: ["Markthal opened", "Stalls inside", "Visitors / year"],
+      cta: "See us on the map",
+    },
+    menu: {
+      eyebrow: "From the Sea", heading: "Taste the", headingHighlight: "ocean",
+      desc: "Fresh from sea to plate, every single day.",
+      cats: { all: "All", popular: "Popular", seafood: "Seafood", drinks: "Drinks", sides: "Sides" },
+      popular: "Popular", new: "New",
+    },
+    gallery: {
+      eyebrow: "Gallery", heading: "A feast for", headingHighlight: "the eyes.",
+      desc: "The stall, the catch, the city around us — a glimpse at why people keep coming back.",
+    },
+    reviews: {
+      eyebrow: "Guestbook", heading: "What our", headingHighlight: "guests", headingSuffix: "say",
+      basedOn: "Based on 178 Google reviews", mostMentioned: "Most mentioned",
+      readAll: "Read all 178 reviews on Google",
+    },
+    contact: {
+      eyebrow: "Visit Us", heading: "Come", headingHighlight: "find", headingSuffix: "us.",
+      desc: "Tucked into Floor G of the Markthal — easy to spot, easier to fall in love with.",
+      addressTitle: "Address", hoursTitle: "Hours", servicesTitle: "Services",
+      directions: "Directions", callUs: "Call us",
+      openNow: "Open now · Floor G, Markthal", floor: "Floor G · Market Hall",
+    },
+    footer: {
+      hungerEyebrow: "Hungry yet?",
+      hungerHeading: "Today's catch won't wait.", hungerHighlight: "Stop by.",
+      directions: "Directions", call: "Call",
+      explore: "Explore", findUs: "Find us", hours: "Hours",
+      copyright: "Markthal Floor G · Rotterdam", backToTop: "Back to top",
+    },
+  },
+
+  nl: {
+    nav: {
+      about: "Over Ons", menu: "Menu", gallery: "Galerij",
+      reviews: "Beoordelingen", visit: "Bezoek", call: "Bellen", directions: "Route Plannen",
+    },
+    hero: {
+      eyebrow: "Een Rotterdams Instituut",
+      h1a: "Alle", h1b: "lekkernijen", h1c: "van de", h1d: "zee",
+      h1e: "vind je bij", h1f: "Royal Fish.",
+      desc: "Hollandse Nieuwe, kibbeling, oesters en de beste vangst van de dag — elke ochtend vers, geserveerd op verdieping G van de iconische Markthal.",
+      menuCta: "Bekijk het menu", dirCta: "Route plannen", floorCta: "Verdieping G · Markthal",
+      rating: "178 Google-beoordelingen", price: "€10–20 per persoon",
+      services: "Ter plekke · Afhalen · Bezorgen", scroll: "Scroll",
+      openNow: "Nu geopend", est: "Opgericht · Markthal Rotterdam",
+      today: "Vandaag", fresh: "Vers", catch: "gevangen",
+    },
+    trust: [
+      { label: "Dagelijks gevangen", sub: "Vers om 08:00" },
+      { label: "Uit de Noordzee", sub: "Betrouwbare leveranciers" },
+      { label: "Markthal blikvanger", sub: "Aanbevolen bestemming" },
+      { label: "7 dagen geopend", sub: "Doordeweeks tot 20:00" },
+    ],
+    about: {
+      eyebrow: "Ons Verhaal",
+      heading: "Echte visspecialisten,", headingHighlight: "30+ jaar", headingSuffix: "marktervaring.",
+      desc: "Royal Fish werd opgericht door echte visspecialisten met meer dan 30 jaar ervaring op de vismarkt. Toen de kans zich voordeed om een kraam te openen in de Markthal Rotterdam, grepen de eigenaren die met beide handen aan.",
+      storyEyebrow: "Het koninklijke verhaal",
+      quote: "\"Royal Fish staat voor verse vis, puur gebakken vis, heerlijke mosselen, heerlijke haring, mooie wijn en goede service.\"",
+      p1: "De eigenaren en het personeel hebben een oprechte liefde voor de vismarkt — je proeft het in de vriendelijke service en in de vakkundige bereiding van elk gerecht.",
+      p2: "Alle visgerechten zijn huisgemaakt, de vis wordt dagelijks vers ingekocht en onze gebakken vis wordt recht voor je neus bereid — een echte lekkernij van een uitgebreid frituurmenu.",
+      stats: ["jaar ervaring", "huisgemaakte gerechten", "dagelijks vers"],
+      hoursTitle: "Openingstijden", findTitle: "Vind ons", floor: "Verdieping G · Markthal",
+      features: [
+        { title: "Dagelijks vers gevangen", desc: "Elke ochtend vers van vertrouwde Nederlandse vissers — wat je vandaag proeft, zwom gisteren nog in de zee." },
+        { title: "In de Markthal", desc: "Op verdieping G van Rotterdams iconische Markthal. Makkelijk te vinden, altijd bruisend van stedelijke levendigheid." },
+        { title: "Eten · Afhalen · Bezorgen", desc: "Zit rustig, haal op of laat bezorgen. Wij passen ons aan jou aan." },
+        { title: "Warme, attente service", desc: "Ons team staat altijd klaar met een glimlach en advies. Eerste bezoekers worden zelden eenmalige bezoekers." },
+      ],
+    },
+    rotterdam: {
+      eyebrow: "De buurt",
+      heading: "Een smaak van", headingHighlight: "nieuw Rotterdam.",
+      p1: "Rotterdam is gedurfd, modern en volledig zichzelf — een havenstad herbouwd met skyline-ambitie en straatse warmte. In het hart ervan rijst de Markthal als een gebeeldhouwde boog boven de culinaire honger van de stad.",
+      p2: "Onder die boog vind je ons, naast een honderdtal andere aanbieders van eten, wijn en goed gezelschap. Van de Kubuswoningen tot de Erasmusbrug — dit is ons favoriete adres in Nederland, en we denken dat je begrijpt waarom.",
+      facts: ["Markthal geopend", "Kramen", "Bezoekers / jaar"],
+      cta: "Bekijk ons op de kaart",
+    },
+    menu: {
+      eyebrow: "Van de Zee", heading: "Proef de", headingHighlight: "oceaan",
+      desc: "Elke dag vers van zee naar bord.",
+      cats: { all: "Alles", popular: "Populair", seafood: "Zeevruchten", drinks: "Dranken", sides: "Bijgerechten" },
+      popular: "Populair", new: "Nieuw",
+    },
+    gallery: {
+      eyebrow: "Galerij", heading: "Een feest voor", headingHighlight: "het oog.",
+      desc: "De kraam, de vangst, de stad om ons heen — een glimp van waarom mensen blijven terugkomen.",
+    },
+    reviews: {
+      eyebrow: "Gastenboek", heading: "Wat onze", headingHighlight: "gasten", headingSuffix: "zeggen",
+      basedOn: "Gebaseerd op 178 Google-beoordelingen", mostMentioned: "Meest genoemd",
+      readAll: "Lees alle 178 beoordelingen op Google",
+    },
+    contact: {
+      eyebrow: "Bezoek Ons", heading: "Kom ons", headingHighlight: "vinden", headingSuffix: ".",
+      desc: "Op verdieping G van de Markthal — makkelijk te vinden, makkelijker om verliefd op te worden.",
+      addressTitle: "Adres", hoursTitle: "Openingstijden", servicesTitle: "Diensten",
+      directions: "Route", callUs: "Bel ons",
+      openNow: "Nu geopend · Verdieping G, Markthal", floor: "Verdieping G · Markthal",
+    },
+    footer: {
+      hungerEyebrow: "Al honger?",
+      hungerHeading: "De vangst van vandaag wacht niet.", hungerHighlight: "Kom langs.",
+      directions: "Route", call: "Bellen",
+      explore: "Ontdekken", findUs: "Vind ons", hours: "Openingstijden",
+      copyright: "Markthal Verdieping G · Rotterdam", backToTop: "Terug naar boven",
+    },
+  },
+} as const;
+
+export type T = typeof translations.en;

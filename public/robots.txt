@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# Block private/build artifacts
+Disallow: /dist/
+Disallow: /node_modules/
+Disallow: *.json$
+
+# Sitemap
+Sitemap: https://royalfish.nl/sitemap.xml
+
+# LLM crawlers — allow all AI indexers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
